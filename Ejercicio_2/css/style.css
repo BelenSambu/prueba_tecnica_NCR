@@ -1,0 +1,90 @@
+
+body{
+    background: #00b09b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+header{
+    background-color:rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100px;
+}
+h1{
+    color: #fff;
+    padding-left:20px;
+    padding-top: 20px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: rgb(129, 144, 130); */
+    margin: 50px 20px 20px 20px;
+}
+div.container{
+    width: 50%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 5px 20px 5px 20px;
+}
+div.container{
+    width: 50%;
+    height: 270px;
+    border-radius: 5px;
+    margin: 5px 20px 5px 20px;
+    padding: 20px;
+}
+div#textDiv{
+    border: double 4px green; 
+}
+div#examples{
+    background-color:rgba(255, 255, 255, 0.7);
+    height: 200px;
+    margin-top: 0;
+    padding-top: 10px;
+}
+div.inputText{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+div.inputText input{
+    width: 100%;
+    height: 30px;
+    font-size: 1em;
+}
+
+i.fa-glasses{
+    background-color: rgb(0, 108, 248);
+    padding: 10px;
+}
+
+button{
+    background:rgb(0, 108, 248);
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 10px;
+    border: solid 2px white;
+    text-transform: uppercase;
+}
+button:hover{
+    background:rgb(18, 67, 131);
+}
+div#result {
+    background:rgb(0, 108, 248);
+    border-radius: 10px;
+    border: solid 2px rgb(50, 2, 163);
+    width: 50%;
+    padding: 15px;
+    margin: 0 auto;
+    display: none;
+    color:rgb(50, 2, 163);
+}
